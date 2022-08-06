@@ -9,10 +9,14 @@ export const subContext= createContext(FakeData)
 const Home = () => {
     const [subject,setsubject]=useState([])
     
-    useEffect(()=>{
-        setsubject(FakeData)
     
-    },[])
+        useEffect(()=>{
+            fetch('http://localhost:3000/subjects')
+            .then(res=>res.json())
+            .then(data=>console.log(data))
+            },[])
+    
+    
 
     return (
        <subContext.Provider  >

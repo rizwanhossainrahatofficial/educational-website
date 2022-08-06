@@ -1,0 +1,54 @@
+
+{
+    "subjects":[
+           {
+     "id": 1,
+     "subject": "Physics",
+     "sir": "Rizwan ",
+     "email": "Rizwanhossainrahat400@gmail.com",
+     "img": "https://images.vexels.com/media/users/3/197030/raw/1e4f300d5c93c9836aadff771ef580f8-physics-elements-illustration-set.jpg"
+   }, {
+     "id": 2,
+     "subject": "Chemistry",
+     "sir": "Huggens",
+     "email": "lhuggens1@fema.gov",
+     "img": "https://media.istockphoto.com/photos/chemical-reaction-picture-id960985610"
+   }, {
+     "id": 3,
+     "subject": "Higher Math",
+     "sir": "Pudden",
+     "email": "lpudden2@wordpress.org",
+     "img": "https://previews.123rf.com/images/fbatista72/fbatista721401/fbatista72140100274/25434898-formula-advanced-math-equation-.jpg?fj=1"
+   }, {
+     "id": 4,
+     "subject": "Biology",
+     "sir": "Bennike",
+     "email": "abennike3@newyorker.com",
+     "img": "https://cdn.pixabay.com/photo/2016/06/22/16/24/structure-1473346_960_720.jpg"
+   }, {
+     "id": 5,
+     "subject": "English 1st Paper",
+     "sir": "Manicom",
+     "email": "gmanicom4@liveinternet.ru",
+     "img": "gmanicom4@hud.gov"
+   }, {
+     "id": 6,
+     "subject": "Reiko",
+     "sir": "Nutting",
+     "email": "rnutting5@youku.com",
+     "img": "rnutting5@prlog.org"
+   }, {
+     "id": 7,
+     "subject": "Merrill",
+     "sir": "Kleint",
+     "email": "mkleint6@usnews.com",
+     "img": "mkleint6@sfgate.com"
+   }, {
+     "id": 8,
+     "subject": "Jere",
+     "sir": "Todhunter",
+     "email": "jtodhunter7@gnu.org",
+     "img": "jtodhunter7@discuz.net"
+   }
+ ]
+ }

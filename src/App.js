@@ -8,11 +8,21 @@ import Contract from './components/Contract/Contract';
 import Service from './components/Service/Service';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [subject,setsubject]=useState([])
+    
+    
+        useEffect(()=>{
+            fetch('http://localhost:3000/subjects')
+            .then(res=>res.json())
+            .then(data=>console.log(data))
+            },[])
+    
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Header></Header>
       
       <Routes>
@@ -26,7 +36,7 @@ function App() {
       
       </Routes>
       <Footer></Footer>
-      </BrowserRouter>
+      </BrowserRouter> */}
      
     </div>
   );
